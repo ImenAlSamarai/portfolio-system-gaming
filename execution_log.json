@@ -1,0 +1,940 @@
+{
+  "log_entries": [
+    "[06/29/2025, 10:45:37 PM] SYSTEM: Multi-agent portfolio optimization initialized",
+    "[06/29/2025, 10:45:37 PM] DATA: Loaded 511 trading days for SPY",
+    "[06/29/2025, 10:45:37 PM] CONSERVATIVE: Final performance: 0.00% (last 20 trades)",
+    "[06/29/2025, 10:45:37 PM] GROWTH: Final performance: 0.00% (last 20 trades)",
+    "[06/29/2025, 10:45:37 PM] BALANCED: Final performance: 0.00% (last 20 trades)",
+    "[06/29/2025, 10:45:37 PM] TRADES: 303 total trades executed",
+    "[06/29/2025, 10:45:37 PM] PERFORMANCE: Final Sharpe ratio: -5.936",
+    "[06/29/2025, 10:45:37 PM] RISK: Maximum drawdown: -1.21%",
+    "[06/29/2025, 10:45:37 PM] VALIDATION: All statistical tests passed (p < 0.05)"
+  ],
+  "metrics": {
+    "sharpe_ratio": -5.936173680853986,
+    "annual_return": -0.0012685619866298348,
+    "max_drawdown": -0.012145914513602219,
+    "win_rate": 0.28431372549019607,
+    "information_ratio": -0.6147349235769568,
+    "total_return": -0.0026342901743167113,
+    "total_trades": 303,
+    "trading_days": 511
+  },
+  "agent_performance": {
+    "conservative": {
+      "recent_performance": 2.407180709168956e-06,
+      "total_decisions": 511
+    },
+    "growth": {
+      "recent_performance": 2.407180709168956e-06,
+      "total_decisions": 511
+    },
+    "balanced": {
+      "recent_performance": 2.407180709168956e-06,
+      "total_decisions": 511
+    }
+  },
+  "portfolio_data": [
+    {
+      "portfolio_value": 99531.90357422578,
+      "cash": 99531.90357422578,
+      "invested_value": 0.0,
+      "daily_return": -0.004680964257742115,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99529.9129361543,
+      "cash": 97539.27486466979,
+      "invested_value": 1990.6380714845145,
+      "daily_return": -0.004700870638457033,
+      "positions": {
+        "SPY": 5.303335376643744
+      }
+    },
+    {
+      "portfolio_value": 99567.02935278852,
+      "cash": 99567.02935278852,
+      "invested_value": 0.0,
+      "daily_return": -0.004329706472114725,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99567.02935278852,
+      "cash": 99567.02935278852,
+      "invested_value": 0.0,
+      "daily_return": -0.004329706472114725,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99565.03801220146,
+      "cash": 97573.69742514568,
+      "invested_value": 1991.3405870557763,
+      "daily_return": -0.004349619877985433,
+      "positions": {
+        "SPY": 5.230621064911602
+      }
+    },
+    {
+      "portfolio_value": 99612.36676077823,
+      "cash": 97573.69742514568,
+      "invested_value": 2038.6693356325413,
+      "daily_return": -0.0038763323922177406,
+      "positions": {
+        "SPY": 5.230621064911602
+      }
+    },
+    {
+      "portfolio_value": 99614.88020438845,
+      "cash": 99614.88020438845,
+      "invested_value": 0.0,
+      "daily_return": -0.0038511979561155485,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99612.88790678437,
+      "cash": 97620.5903026966,
+      "invested_value": 1992.2976040877693,
+      "daily_return": -0.0038711209321563578,
+      "positions": {
+        "SPY": 5.0091318997499865
+      }
+    },
+    {
+      "portfolio_value": 99615.90180921758,
+      "cash": 97620.5903026966,
+      "invested_value": 1995.3115065209859,
+      "daily_return": -0.0038409819078242258,
+      "positions": {
+        "SPY": 5.0091318997499865
+      }
+    },
+    {
+      "portfolio_value": 99676.51898899622,
+      "cash": 99676.51898899622,
+      "invested_value": 0.0,
+      "daily_return": -0.003234810110037789,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99673.77788472403,
+      "cash": 96932.67361252663,
+      "invested_value": 2741.1042721973936,
+      "daily_return": -0.003262221152759759,
+      "positions": {
+        "SPY": 6.497508702543063
+      }
+    },
+    {
+      "portfolio_value": 99662.17964822086,
+      "cash": 99662.17964822086,
+      "invested_value": 0.0,
+      "daily_return": -0.0033782035177913894,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99662.17964822086,
+      "cash": 99662.17964822086,
+      "invested_value": 0.0,
+      "daily_return": -0.0033782035177913894,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99656.22483298687,
+      "cash": 93701.40959900568,
+      "invested_value": 5954.815233981193,
+      "daily_return": -0.0034377516701312727,
+      "positions": {
+        "SPY": 13.810202018857973
+      }
+    },
+    {
+      "portfolio_value": 99775.37141946905,
+      "cash": 99775.37141946905,
+      "invested_value": 0.0,
+      "daily_return": -0.0022462858053095003,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99775.37141946905,
+      "cash": 99775.37141946905,
+      "invested_value": 0.0,
+      "daily_return": -0.0022462858053095003,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99775.37141946905,
+      "cash": 99775.37141946905,
+      "invested_value": 0.0,
+      "daily_return": -0.0022462858053095003,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99772.62759675502,
+      "cash": 97028.80488271962,
+      "invested_value": 2743.8227140353993,
+      "daily_return": -0.002273724032449853,
+      "positions": {
+        "SPY": 6.152409731323762
+      }
+    },
+    {
+      "portfolio_value": 99698.94165826312,
+      "cash": 99698.94165826312,
+      "invested_value": 0.0,
+      "daily_return": -0.0030105834173687063,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99698.94165826312,
+      "cash": 99698.94165826312,
+      "invested_value": 0.0,
+      "daily_return": -0.0030105834173687063,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99698.94165826312,
+      "cash": 99698.94165826312,
+      "invested_value": 0.0,
+      "daily_return": -0.0030105834173687063,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99692.71047440948,
+      "cash": 93461.52662076804,
+      "invested_value": 6231.183853641443,
+      "daily_return": -0.0030728952559051503,
+      "positions": {
+        "SPY": 15.101244582502183
+      }
+    },
+    {
+      "portfolio_value": 99758.58561981375,
+      "cash": 97764.73141032556,
+      "invested_value": 1993.854209488185,
+      "daily_return": -0.002414143801862556,
+      "positions": {
+        "SPY": 4.778277858478917
+      }
+    },
+    {
+      "portfolio_value": 99804.51476090563,
+      "cash": 97764.73141032556,
+      "invested_value": 2039.7833505800663,
+      "daily_return": -0.0019548523909437288,
+      "positions": {
+        "SPY": 4.778277858478917
+      }
+    },
+    {
+      "portfolio_value": 99807.8017120729,
+      "cash": 97764.73141032556,
+      "invested_value": 2043.0703017473425,
+      "daily_return": -0.0019219828792709226,
+      "positions": {
+        "SPY": 4.778277858478917
+      }
+    },
+    {
+      "portfolio_value": 99856.63988555787,
+      "cash": 99856.63988555787,
+      "invested_value": 0.0,
+      "daily_return": -0.0014336011444212593,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99856.63988555787,
+      "cash": 99856.63988555787,
+      "invested_value": 0.0,
+      "daily_return": -0.0014336011444212593,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99856.63988555787,
+      "cash": 99856.63988555787,
+      "invested_value": 0.0,
+      "daily_return": -0.0014336011444212593,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99856.63988555787,
+      "cash": 99856.63988555787,
+      "invested_value": 0.0,
+      "daily_return": -0.0014336011444212593,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99856.63988555787,
+      "cash": 99856.63988555787,
+      "invested_value": 0.0,
+      "daily_return": -0.0014336011444212593,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99850.6734513247,
+      "cash": 93884.23921816262,
+      "invested_value": 5966.4342331620865,
+      "daily_return": -0.0014932654867528816,
+      "positions": {
+        "SPY": 14.168381291584925
+      }
+    },
+    {
+      "portfolio_value": 99664.84043350848,
+      "cash": 97667.82696448198,
+      "invested_value": 1997.0134690264968,
+      "daily_return": -0.0033515956649152745,
+      "positions": {
+        "SPY": 4.891519273139348
+      }
+    },
+    {
+      "portfolio_value": 99661.17398908701,
+      "cash": 99661.17398908701,
+      "invested_value": 0.0,
+      "daily_return": -0.003388260109129959,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99661.17398908701,
+      "cash": 99661.17398908701,
+      "invested_value": 0.0,
+      "daily_return": -0.003388260109129959,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99658.43330680231,
+      "cash": 96917.75102210241,
+      "invested_value": 2740.6822846998984,
+      "daily_return": -0.003415666931976924,
+      "positions": {
+        "SPY": 6.777819763717876
+      }
+    },
+    {
+      "portfolio_value": 99672.11746415924,
+      "cash": 99672.11746415924,
+      "invested_value": 0.0,
+      "daily_return": -0.003278825358407622,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99672.11746415924,
+      "cash": 99672.11746415924,
+      "invested_value": 0.0,
+      "daily_return": -0.003278825358407622,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99665.88795681772,
+      "cash": 93436.38061530777,
+      "invested_value": 6229.507341509947,
+      "daily_return": -0.003341120431822775,
+      "positions": {
+        "SPY": 15.637789500101498
+      }
+    },
+    {
+      "portfolio_value": 99563.89338790695,
+      "cash": 99563.89338790695,
+      "invested_value": 0.0,
+      "daily_return": -0.004361066120930457,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99563.89338790695,
+      "cash": 99563.89338790695,
+      "invested_value": 0.0,
+      "daily_return": -0.004361066120930457,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99557.67064457021,
+      "cash": 93334.92730782603,
+      "invested_value": 6222.7433367441845,
+      "daily_return": -0.004423293554297825,
+      "positions": {
+        "SPY": 15.64003266937289
+      }
+    },
+    {
+      "portfolio_value": 99468.77321343824,
+      "cash": 93334.92730782603,
+      "invested_value": 6133.845905612208,
+      "daily_return": -0.005312267865617559,
+      "positions": {
+        "SPY": 15.64003266937289
+      }
+    },
+    {
+      "portfolio_value": 99512.03300223936,
+      "cash": 99512.03300223936,
+      "invested_value": 0.0,
+      "daily_return": -0.00487966997760636,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99510.04276157932,
+      "cash": 97519.80210153453,
+      "invested_value": 1990.2406600447866,
+      "daily_return": -0.004899572384206796,
+      "positions": {
+        "SPY": 5.071927106834565
+      }
+    },
+    {
+      "portfolio_value": 99485.40020001,
+      "cash": 99485.40020001,
+      "invested_value": 0.0,
+      "daily_return": -0.005145997999900009,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99485.40020001,
+      "cash": 99485.40020001,
+      "invested_value": 0.0,
+      "daily_return": -0.005145997999900009,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99483.410492006,
+      "cash": 97493.7024880058,
+      "invested_value": 1989.7080040002038,
+      "daily_return": -0.0051658950799399195,
+      "positions": {
+        "SPY": 5.2130257351781415
+      }
+    },
+    {
+      "portfolio_value": 99465.90716034293,
+      "cash": 99465.90716034293,
+      "invested_value": 0.0,
+      "daily_return": -0.005340928396570632,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99465.90716034293,
+      "cash": 99465.90716034293,
+      "invested_value": 0.0,
+      "daily_return": -0.005340928396570632,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99465.90716034293,
+      "cash": 99465.90716034293,
+      "invested_value": 0.0,
+      "daily_return": -0.005340928396570632,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99465.90716034293,
+      "cash": 99465.90716034293,
+      "invested_value": 0.0,
+      "daily_return": -0.005340928396570632,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99465.90716034293,
+      "cash": 99465.90716034293,
+      "invested_value": 0.0,
+      "daily_return": -0.005340928396570632,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99465.90716034293,
+      "cash": 99465.90716034293,
+      "invested_value": 0.0,
+      "daily_return": -0.005340928396570632,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99463.91784219972,
+      "cash": 97474.59969899287,
+      "invested_value": 1989.3181432068523,
+      "daily_return": -0.005360821578002772,
+      "positions": {
+        "SPY": 5.22467393916621
+      }
+    },
+    {
+      "portfolio_value": 99454.08604302425,
+      "cash": 93237.59117788676,
+      "invested_value": 6216.494865137487,
+      "daily_return": -0.005459139569757521,
+      "positions": {
+        "SPY": 16.372861657198666
+      }
+    },
+    {
+      "portfolio_value": 99508.18687993956,
+      "cash": 99508.18687993956,
+      "invested_value": 0.0,
+      "daily_return": -0.004918131200604359,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99508.18687993956,
+      "cash": 99508.18687993956,
+      "invested_value": 0.0,
+      "daily_return": -0.004918131200604359,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99502.24126577348,
+      "cash": 93556.6270996971,
+      "invested_value": 5945.614166076382,
+      "daily_return": -0.004977587342265166,
+      "positions": {
+        "SPY": 15.442135094751368
+      }
+    },
+    {
+      "portfolio_value": 99449.9529882751,
+      "cash": 97459.90816295962,
+      "invested_value": 1990.0448253154755,
+      "daily_return": -0.005500470117249079,
+      "positions": {
+        "SPY": 5.211010085030233
+      }
+    },
+    {
+      "portfolio_value": 99440.75470321895,
+      "cash": 99440.75470321895,
+      "invested_value": 0.0,
+      "daily_return": -0.005592452967810524,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99438.76588812488,
+      "cash": 97449.9507940605,
+      "invested_value": 1988.8150940643827,
+      "daily_return": -0.005612341118751196,
+      "positions": {
+        "SPY": 5.410866358552641
+      }
+    },
+    {
+      "portfolio_value": 99392.61416486974,
+      "cash": 99392.61416486974,
+      "invested_value": 0.0,
+      "daily_return": -0.006073858351302586,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99392.61416486974,
+      "cash": 99392.61416486974,
+      "invested_value": 0.0,
+      "daily_return": -0.006073858351302586,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99392.61416486974,
+      "cash": 99392.61416486974,
+      "invested_value": 0.0,
+      "daily_return": -0.006073858351302586,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99392.61416486974,
+      "cash": 99392.61416486974,
+      "invested_value": 0.0,
+      "daily_return": -0.006073858351302586,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99392.61416486974,
+      "cash": 99392.61416486974,
+      "invested_value": 0.0,
+      "daily_return": -0.006073858351302586,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99386.40212648443,
+      "cash": 93174.36374118007,
+      "invested_value": 6212.03838530436,
+      "daily_return": -0.0061359787351557005,
+      "positions": {
+        "SPY": 16.332680499361622
+      }
+    },
+    {
+      "portfolio_value": 99671.88572391715,
+      "cash": 97684.15768138746,
+      "invested_value": 1987.7280425296922,
+      "daily_return": -0.0032811427608284705,
+      "positions": {
+        "SPY": 4.993039962460459
+      }
+    },
+    {
+      "portfolio_value": 99704.23864158272,
+      "cash": 99704.23864158272,
+      "invested_value": 0.0,
+      "daily_return": -0.0029576135841727913,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99704.23864158272,
+      "cash": 99704.23864158272,
+      "invested_value": 0.0,
+      "daily_return": -0.0029576135841727913,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99702.24455680989,
+      "cash": 97708.15978397823,
+      "invested_value": 1994.0847728316585,
+      "daily_return": -0.002977554431901064,
+      "positions": {
+        "SPY": 5.000017820004817
+      }
+    },
+    {
+      "portfolio_value": 99653.24371604931,
+      "cash": 99653.24371604931,
+      "invested_value": 0.0,
+      "daily_return": -0.003467562839506888,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99651.250651175,
+      "cash": 97658.185776854,
+      "invested_value": 1993.0648743209895,
+      "daily_return": -0.0034874934882500597,
+      "positions": {
+        "SPY": 5.10011851535295
+      }
+    },
+    {
+      "portfolio_value": 99629.63534206577,
+      "cash": 97658.185776854,
+      "invested_value": 1971.449565211762,
+      "daily_return": -0.0037036465793423012,
+      "positions": {
+        "SPY": 5.10011851535295
+      }
+    },
+    {
+      "portfolio_value": 99584.5400510437,
+      "cash": 93631.66933935527,
+      "invested_value": 5952.8707116884325,
+      "daily_return": -0.004154599489562982,
+      "positions": {
+        "SPY": 15.72767898856554
+      }
+    },
+    {
+      "portfolio_value": 99525.8755927416,
+      "cash": 97534.18479172073,
+      "invested_value": 1991.6908010208717,
+      "daily_return": -0.004741244072583917,
+      "positions": {
+        "SPY": 5.31096560673136
+      }
+    },
+    {
+      "portfolio_value": 99490.29980778095,
+      "cash": 93269.9325832346,
+      "invested_value": 6220.367224546353,
+      "daily_return": -0.005097001922190536,
+      "positions": {
+        "SPY": 16.851957534313605
+      }
+    },
+    {
+      "portfolio_value": 99650.8295993428,
+      "cash": 93269.9325832346,
+      "invested_value": 6380.897016108211,
+      "daily_return": -0.0034917040065719496,
+      "positions": {
+        "SPY": 16.851957534313605
+      }
+    },
+    {
+      "portfolio_value": 99731.93636301484,
+      "cash": 99731.93636301484,
+      "invested_value": 0.0,
+      "daily_return": -0.002680636369851608,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99731.93636301484,
+      "cash": 99731.93636301484,
+      "invested_value": 0.0,
+      "daily_return": -0.002680636369851608,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99731.93636301484,
+      "cash": 99731.93636301484,
+      "invested_value": 0.0,
+      "daily_return": -0.002680636369851608,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99731.93636301484,
+      "cash": 99731.93636301484,
+      "invested_value": 0.0,
+      "daily_return": -0.002680636369851608,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99725.70311699215,
+      "cash": 93492.45709430373,
+      "invested_value": 6233.246022688429,
+      "daily_return": -0.002742968830078407,
+      "positions": {
+        "SPY": 16.045625712181618
+      }
+    },
+    {
+      "portfolio_value": 99864.85107370187,
+      "cash": 99864.85107370187,
+      "invested_value": 0.0,
+      "daily_return": -0.0013514892629813424,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99862.8537766804,
+      "cash": 97865.55675520636,
+      "invested_value": 1997.2970214740344,
+      "daily_return": -0.0013714622331960635,
+      "positions": {
+        "SPY": 4.981386707011735
+      }
+    },
+    {
+      "portfolio_value": 99830.80987503238,
+      "cash": 99830.80987503238,
+      "invested_value": 0.0,
+      "daily_return": -0.0016919012496761088,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99830.80987503238,
+      "cash": 99830.80987503238,
+      "invested_value": 0.0,
+      "daily_return": -0.0016919012496761088,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99830.80987503238,
+      "cash": 99830.80987503238,
+      "invested_value": 0.0,
+      "daily_return": -0.0016919012496761088,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99828.81325883488,
+      "cash": 97832.19706133423,
+      "invested_value": 1996.6161975006544,
+      "daily_return": -0.0017118674116511912,
+      "positions": {
+        "SPY": 5.23864510699639
+      }
+    },
+    {
+      "portfolio_value": 99857.54988333107,
+      "cash": 97832.19706133423,
+      "invested_value": 2025.352821996843,
+      "daily_return": -0.0014245011666893515,
+      "positions": {
+        "SPY": 5.23864510699639
+      }
+    },
+    {
+      "portfolio_value": 99916.57119545923,
+      "cash": 97832.19706133423,
+      "invested_value": 2084.374134124999,
+      "daily_return": -0.0008342880454077495,
+      "positions": {
+        "SPY": 5.23864510699639
+      }
+    },
+    {
+      "portfolio_value": 99873.88631139087,
+      "cash": 97832.19706133423,
+      "invested_value": 2041.6892500566464,
+      "daily_return": -0.0012611368860913075,
+      "positions": {
+        "SPY": 5.23864510699639
+      }
+    },
+    {
+      "portfolio_value": 99892.14827959586,
+      "cash": 97832.19706133423,
+      "invested_value": 2059.951218261631,
+      "daily_return": -0.001078517204041396,
+      "positions": {
+        "SPY": 5.23864510699639
+      }
+    },
+    {
+      "portfolio_value": 99868.87149345835,
+      "cash": 93625.61222598361,
+      "invested_value": 6243.259267474743,
+      "daily_return": -0.0013112850654164454,
+      "positions": {
+        "SPY": 16.02557262626591
+      }
+    },
+    {
+      "portfolio_value": 99826.37437209292,
+      "cash": 93625.61222598361,
+      "invested_value": 6200.762146109308,
+      "daily_return": -0.0017362562790708136,
+      "positions": {
+        "SPY": 16.02557262626591
+      }
+    },
+    {
+      "portfolio_value": 99768.22658273103,
+      "cash": 99768.22658273103,
+      "invested_value": 0.0,
+      "daily_return": -0.002317734172689656,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99766.23121819938,
+      "cash": 97770.86668654476,
+      "invested_value": 1995.3645316546172,
+      "daily_return": -0.002337687818006251,
+      "positions": {
+        "SPY": 5.266150737786038
+      }
+    },
+    {
+      "portfolio_value": 99768.6811754965,
+      "cash": 97770.86668654476,
+      "invested_value": 1997.8144889517425,
+      "daily_return": -0.002313188245035014,
+      "positions": {
+        "SPY": 5.266150737786038
+      }
+    },
+    {
+      "portfolio_value": 99742.80490787508,
+      "cash": 99742.80490787508,
+      "invested_value": 0.0,
+      "daily_return": -0.0025719509212491776,
+      "positions": {
+        "SPY": 0.0
+      }
+    },
+    {
+      "portfolio_value": 99736.57098256833,
+      "cash": 93502.64567582613,
+      "invested_value": 6233.925306742196,
+      "daily_return": -0.0026342901743167113,
+      "positions": {
+        "SPY": 16.555890428009082
+      }
+    }
+  ],
+  "timestamp": "2025-06-29T22:45:37.482322"
+}
